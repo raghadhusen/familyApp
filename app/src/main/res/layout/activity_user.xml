@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Activity">
+
+    <Button
+        android:id="@+id/Status"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="86dp"
+        android:background="@drawable/image_activity"
+        android:clickable="true"
+        android:onClick="PatientAcivity"
+        android:padding="16dp"
+        android:text="Status"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/chating"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="240dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/image_activity"
+        android:clickable="true"
+        android:onClick="CallingActivity"
+        android:padding="16dp"
+        android:text="Chating"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Location"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="378dp"
+        android:background="@drawable/image_activity"
+        android:clickable="true"
+        android:onClick="MapsActivity"
+        android:padding="16dp"
+        android:text="Location"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/navigation1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="#213a38"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#213a38"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:layout_width="68dp"
+            android:layout_height="62dp"
+
+
+            android:layout_alignParentTop="true"
+            android:backgroundTint="#213a38"
+            app:srcCompat="@drawable/ic_person_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/notification"
+            android:layout_width="81dp"
+            android:layout_height="62dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#213a38"
+            app:srcCompat="@drawable/hearts"
+
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="118dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:text="Rahaf"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/pati"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginRight="252dp"
+        android:layout_marginBottom="240dp"
+        android:onClick="PatientAcivity"
+        android:src="@drawable/patient" />
+
+    <ImageButton
+        android:id="@+id/stat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="86dp"
+        android:onClick="PatientAcivity"
+        android:src="@drawable/status" />
+
+    <ImageButton
+        android:id="@+id/locat"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginRight="254dp"
+        android:layout_marginBottom="381dp"
+        android:background="@drawable/location"
+        android:drawableLeft="@drawable/location"
+        android:onClick="MapsActivity" />
+
+
+</RelativeLayout>
+
+
+

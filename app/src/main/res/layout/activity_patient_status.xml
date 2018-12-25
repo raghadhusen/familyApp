@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientStatus"
+
+
+
+    >
+
+    <ImageView
+        android:layout_width="158dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:src="@drawable/iimg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/heartRate"
+        android:layout_width="349dp"
+        android:layout_height="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="9dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="201dp"
+        android:layout_marginRight="9dp"
+        android:layout_alignParentRight="true" />
+
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="236dp"
+        android:layout_height="63dp"
+        android:layout_alignStart="@+id/heartRate"
+        android:layout_alignLeft="@+id/heartRate"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/image_activity"
+        android:text="Back to Home Page"
+        android:textColor="#fff" />
+</RelativeLayout>
